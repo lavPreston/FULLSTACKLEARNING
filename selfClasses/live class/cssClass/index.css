@@ -1,0 +1,4 @@
+body{text-align: center; background-color:lightgrey;}
+div{border: 5px; margin: 25px 100px 10px 100px;border-color: gray; border-radius: 10; border-style: solid; border-radius: 30px; background-color:white;}
+h2{border-color: blue; margin: 15px 500px 50px 500px; border-radius: 10; border-style: solid; border-radius: 30px;}
+h3{color:white;margin: 15px 500px 50px 500px;border-style: solid;border-radius: 10;border-color: black;border-width: 5px; height:100px;text-align: center;background-image: url("https://i.shgcdn.com/6e04692e-643f-43d4-943d-6758e14e3510/-/format/auto/-/preview/3000x3000/-/quality/lighter/"); }

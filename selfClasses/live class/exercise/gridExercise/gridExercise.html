@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                font-weight: bold;
+                margin: 20px;
+                background-color: gainsboro;
+            }
+            .containerA{
+                background-color: blue;
+                margin-bottom: 25px;
+                margin: 10px;
+                padding: 10px;
+                display:grid;
+                gap: 13px;
+                color: white;
+                width: 500px;
+                border-radius: 20px;
+                justify-content: center;
+            }
+            .containerA div{
+                background-color: greenyellow;
+                margin: 10px;
+                padding: 20px;
+                width: 350px;
+                height: 20px;
+                text-align: center;
+                font-size: 23px;
+                border-radius: 20px;
+            }
+            .containerB{
+                background-color: blue;
+                margin-bottom: 25px;
+                margin: 10px;
+                padding: 10px;
+                display:grid;
+                grid-template-columns: 2fr 2fr;
+                gap: 13px;
+                color: white;
+                width: 500px;
+                border-radius: 20px;
+                justify-content: center;
+            }
+            .containerB div{
+                background-color: greenyellow;
+                margin: 10px;
+                padding: 20px;
+                width: 175px;
+                height: 20px;
+                text-align: center;
+                font-size: 23px;
+                border-radius: 20px;
+            }
+            .containerC{
+                background-color: blue;
+                margin-bottom: 25px;
+                margin: 10px;
+                padding: 10px;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 13px;
+                color: white;
+                width: 900px;
+                border-radius: 20px;
+                justify-content: center;
+            }
+            .containerC div{
+                background-color: greenyellow;
+                margin: 10px;
+                padding: 20px;
+                width: 175px;
+                height: 20px;
+                text-align: center;
+                font-size: 23px;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title" style="text-align: center;">CSS Grid - Beginner Example</h1>
+        <h2 id="subtitle" style="text-align: center;">grid 3 examples</h2>
+        <hr>
+
+        <p>This is grid column</p>
+        <div class="containerA">
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+        </div>
+        <hr>
+        <p>This is grid column template with 2fr</p>
+        <div class="containerB">
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+        </div>
+        <hr>
+        <p>This is grid column template with 1fr</p>
+        <div class="containerC">
+            <div>box 1</div>
+            <div>box 1</div>
+            <div>box 1</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                font-weight: bold;
+                margin: 10px;
+                background-color: gainsboro;
+            }
+            div{
+                background-color: white;
+            }
+            .inline{
+                display: inline;
+                background-color: green;
+                padding: 8px;
+                margin: 5px;
+                border-radius: 5px;
+            }
+            .block{
+                display: block;
+                background-color: green;
+                padding: 8px;
+                margin: 5px;
+                border-radius: 5px;
+            }
+            .inline-block{
+                display: inline-block;
+                background-color: green;
+                padding: 8px;
+                margin: 5px;
+                border-radius: 5px;
+                height: 45px;
+                width: 90px;
+                text-align: left;
+            }
+            .none{
+                display: inline;
+                background-color: green;
+                padding: 8px;
+                margin: 5px;
+                border-radius: 5px;
+            }
+            .hidden{
+                visibility: hidden;
+                background-color: green;
+                padding: 8px;
+                margin: 5px;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center; margin-top: 50px; margin-bottom: 10px;">DISPLAY PROPERTIES</h1>
+        <div style="margin-bottom: 15px; height: 120px; padding: 10px;">
+            <h1>Display: Inline</h1><br>
+            <p style="height: 5px; margin-bottom: 10px;">Width and height cant be styled for inline elements</p><br>
+            <p class="inline">Inline 1</p>
+            <p class="inline">Inline 1</p>
+            <p class="inline">Inline 1</p>
+        </div><hr>
+        <div style="margin-bottom: 15px; height: 200px; padding: 10px;">
+            <h1>Display: Block</h1><br>
+            <p>starts on a new line and takes full width</p>
+            <p class="block">Block 1</p>
+            <p class="block">Block 1</p>
+            <p class="block">Block 1</p>
+        </div><hr>
+        <div style="margin-bottom: 15px; height: 150px; padding: 10px;">
+            <h1>Display: Inline-Block</h1><br>
+            <p>stays in one line and width and height can be styled</p>
+            <p class="inline-block">box 1</p>
+            <p class="inline-block">box 1</p>
+            <p class="inline-block">box 1</p>
+        </div><hr>
+        <div style="margin-bottom: 15px; height: 125px; padding: 10px;">
+            <h1>Display: None</h1> <br>
+            <p><em>element is removed from the page. not even space is allocated</em></p>
+             <p class="none" style="display: none;">box 1</p>
+            <p class="none">box 2</p>
+            <p class="none" style="display: inline-block;">box 3</p>
+        </div><hr>
+        <div style="margin-bottom: 15px; height: 220px; padding: 10px;">
+            <h1>Visiblity: Hidden</h1><br>
+            <p style="margin-bottom: 15px;">required space wrt element type is allocated but content is invisible</p>
+            <p class="hidden" style="display:inline; visibility: visible;">box 0</p>
+            <p class="hidden">box 1</p>
+            <!-- if visiblity:hidden is given for the element in internal styling, and I also give inline styling as display:block for the same element, will visiblity:
+              hiden override? since 
+              <p class="hidden" style="display: inline-block;" >box 1</p>
+              doesnt seem to apply-->
+            <p class="hidden" style="visibility: hidden;">box 2</p>
+            <p class="hidden" style="display: inline">box 3</p>
+            <p class="hidden" style="display:inline; visibility: visible;">box 4</p>
+        </div><hr>
+    </body>
+</html>

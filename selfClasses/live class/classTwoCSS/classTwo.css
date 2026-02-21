@@ -1,0 +1,31 @@
+body{margin: 40px;}
+div{background-color: green; text-align: center; color: white; padding: 20px; margin: 20px;}
+section{
+    border-style: solid;
+    border-width: 2px;
+    text-align: left;  
+    border-right-width: 2px;
+    padding: 20px; margin: 20px;
+    /*border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black; */}
+img{
+    width: 300px;
+    height: 150px;
+    }
+a:hover{color:blue}
+a:active{color:red}
+p{
+    overflow: scroll;
+    width:200px;
+    height: 200px;
+}
+article{
+    width: 500px;
+    height: auto;
+    border-style: dashed;
+    border-color: black;
+    margin: 20px;
+    padding: 20px;
+}

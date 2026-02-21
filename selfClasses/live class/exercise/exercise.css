@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: wheat;
+}
+article{
+margin:15px;
+text-align: left;
+}
+div{
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+img{
+    margin:3px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkblue;
+    padding: 5px;
+}

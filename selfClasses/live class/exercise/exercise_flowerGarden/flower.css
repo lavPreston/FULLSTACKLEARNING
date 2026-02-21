@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: wheat;
+}
+div{
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+article{
+    margin:15px;
+    text-align: left;
+}
+img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 6px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:violet;
+    display: inline;
+    
+ 
+}

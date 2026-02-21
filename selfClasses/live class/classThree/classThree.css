@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    border: 2px solid black;
+}
+#one{
+    margin: 15px;
+}
+.two{
+    padding: 25px;
+}
+h3, p{
+    color: crimson;
+}
+div h4{
+    color:lime;
+}
+a:hover{
+color: black;
+}
+

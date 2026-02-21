@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                font-weight: bold;
+
+                margin: 20px;
+                background-color: gainsboro;
+            }
+            .container{
+                background-color: blue;
+                margin-bottom: 25px;
+                margin: 10px;
+                padding: 10px;
+                display:inline-flex;
+                gap: 13px;
+                flex-direction: row;
+                color: white;
+                width: 500px;
+                border-radius: 20px;
+                justify-content: center;
+            }
+            .container div{
+                background-color: greenyellow;
+                margin: 10px;
+                padding: 20px;
+                width: 35px;
+                height: 40px;
+                text-align: center;
+                font-size: 23px;
+                border-radius: 20px;
+            }
+            .seperate{
+               background-color: gainsboro;
+                margin: 10px;
+                padding: 10px;
+               flex-direction: row;
+                text-align: center;
+                font-size: 23px;
+                display:inline-flex;
+                border-radius: 20px;
+            }
+            .seperate p{
+                background-color: greenyellow;
+                margin: 10px;
+                padding: 20px;
+                width: 35px;
+                height: 40px;
+                text-align: center;
+                font-size: 23px;
+                border-radius: 20px;
+                color: white;
+            }
+            .containerWrap{
+                background-color: blue;
+                margin-bottom: 25px;
+                margin-left: 20px;
+                margin: 10px;
+                padding: 10px;
+                display:flex;
+                gap: 25px;
+                flex-wrap: wrap;
+                color: white;
+                width: 500px;
+                border-radius: 20px;
+                align-items: center;
+            }
+            .containerWrap div{
+                background-color: greenyellow;
+                margin: 10px;
+                padding: 20px;
+                width: 35px;
+                height: 40px;
+                text-align: center;
+                font-size: 23px;
+                border-radius: 20px;
+            }
+            .containerColumn{
+                background-color: blue;
+                margin-bottom: 25px;
+                margin: 10px;
+                padding: 10px;
+                display:flex;
+                gap: 25px;
+                flex-direction: column;
+                color: white;
+                width: 150px;
+                border-radius: 20px;
+                align-items: center;
+            }
+            .containerColumn div{
+                background-color: greenyellow;
+                margin: 15px;
+                padding: 16px;
+                width: 70px;
+                height: 16px;
+                text-align:center;
+                font-size: 20px;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        
+            <h1 id="title" style="text-align: center;">Flexbox - Beginner Example</h1>
+            <h2 id="subtitle" style="text-align: center;">Flexbox - flex-direction- Row/ Column/ Wrap</h2>
+            <hr>
+            <p>flex-direction is row</p>
+            <div class="container">
+                <div>box 1</div>
+                <div>box 1</div>
+                <div>box 1</div>
+                <div>box 1</div>
+            </div>
+            <div class="seperate">
+                            <p>box 1</p>
+
+            </div>
+            <hr>
+            <p>flex-direction is wrap</p>
+            <div class="containerWrap">
+                <div >box 1</div>
+                <div>box 1</div>
+                <div>box 1</div>
+                <div>box 1</div>
+                <div>box 1</div>
+                <div>box 1</div>
+                
+            </div><hr>
+            <p>flex-direction is column</p>
+            <div class="containerColumn">
+                <div>box 1</div>
+                <div>box 1</div>
+                <div>box 1</div>
+            </div><hr>
+            
+    </body>
+</html>
