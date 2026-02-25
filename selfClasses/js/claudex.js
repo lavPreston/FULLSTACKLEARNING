@@ -11,3 +11,4 @@ let totalwithgst=subtotal+gstamount;
 let discountamount=totalwithgst*discount;
 let finalprice= totalwithgst- discountamount
 console.log( finalprice)
+
